@@ -20,8 +20,8 @@ This is not only to demonstrate the ability of upcycling reprap in conjunction w
 ## Model Credits
 Credits to the following models for making this possible. Please check them out:
 
-- [1] 20 x 20 mm extrusion Power Source Unit (PSU) mount bracket – [https://www.printables.com/model/457450-20-x-20-mm-extrusion-power-source-unit-psu-mount-b/files]  
-- [ ] Model/part name – [source/link]  
+- [1] 20 x 20 mm extrusion Power Source Unit (PSU) mount bracket – [[source/link](https://www.printables.com/model/457450-20-x-20-mm-extrusion-power-source-unit-psu-mount-b/files)]  
+- [2] Bowden / PTFE Tube Coupler - Connect 2 Tubes – [[source/link](https://makerworld.com/en/models/664607-bowden-ptfe-tube-coupler-connect-2-tubes#profileId-591977)]  
 - [ ] Model/part name – [source/link]  
 
 ---
