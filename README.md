@@ -12,7 +12,7 @@ This is not only to demonstrate the ability of upcycling reprap in conjunction w
 
 - `Firmware/` – Marlin 2.1.2.5 configuration for MKS Gen L v1.0  
 - `Model/` – 3D printable parts for CoreXY conversion (mounts, brackets, etc.)  
-- `Doc/` – Assembly notes, wiring diagrams, and printer setup details
+- `Doc/` – Rough Concept Sketches, Torque Curves, and printer setup details
 
 ## Update Log
 **Current Status**: (5.13.25) Adding initial repo files. Firmware is forked from original cartesian build (To be changed). Adding initial design for hotend carriage.
@@ -23,7 +23,7 @@ Credits to the following models for making this possible. Please check them out:
 - [1] 20 x 20 mm extrusion Power Source Unit (PSU) mount bracket – [[source/link](https://www.printables.com/model/457450-20-x-20-mm-extrusion-power-source-unit-psu-mount-b/files)]  
 - [2] Bowden / PTFE Tube Coupler - Connect 2 Tubes – [[source/link](https://makerworld.com/en/models/664607-bowden-ptfe-tube-coupler-connect-2-tubes#profileId-591977)]  
 - [3] E3D v6 dual 4010 fan duct – [[source/link](https://www.printables.com/model/239901-e3d-v6-dual-4010-fan-duct/files)]  
-
+- [4] the100: 8mm linear rod gantry - [[source/link](https://github.com/MSzturc/the100/tree/main/STL/Gantry)]
 ---
 
 > This project is a work in progress.
