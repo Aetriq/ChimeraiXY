@@ -1,6 +1,6 @@
-# Flsun i3XY - CoreXY Build
+# Chimera iXY - CoreXY Build
 
-A DIY CoreXY conversion of the Flsun i3 2017 3D printer. This project includes firmware and relevant 3D model files for the custom build. A mingda magician X with a burnt out mainboard was also used in this build.
+A DIY CoreXY conversion of the Flsun i3 2017 3D printer. This project includes firmware and relevant 3D model files for the custom build. A Mingda Magician X with a burnt out mainboard and 20-pin ribbon cable was also used in this build. I chose the name 'Chimera' since this printer is essentially two completely different 3D printers with a ~5 year gap combined together to make a hybrid printer.
 
 This is not only to demonstrate the ability of upcycling reprap in conjunction with modern printers, but also to prove that only rods, bearings and extrusions are needed to make a fast printer, without the need of more expensive linear rails. You can use them if you have spare ones on hand.
 
