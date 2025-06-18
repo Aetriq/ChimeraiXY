@@ -4,6 +4,8 @@ A DIY CoreXY conversion of the Flsun i3 2017 3D printer. This project includes f
 
 This is not only to demonstrate the ability of upcycling reprap in conjunction with modern printers, but also to prove that only rods, bearings and extrusions are needed to make a fast printer, without the need of more expensive linear rails. You can use them if you have spare ones on hand.
 
+[[Offical Summarized Documentation Page](https://v-tw0.github.io/chimeradoc.html)]
+
 - **Firmware**: Based on Marlin 2.1.2.5  
 - **Controller Board**: MKS Gen L v1.0  
 - **Build Type**: CoreXY mechanical configuration
@@ -15,7 +17,9 @@ This is not only to demonstrate the ability of upcycling reprap in conjunction w
 - `Doc/` – Rough Concept Sketches, Torque Curves, and printer setup details
 
 ## Update Log
-**Current Status**: (5.13.25) Adding initial repo files. Firmware is forked from original cartesian build (To be changed). Adding initial design for hotend carriage.
+**Current Status**: (6.18.25) CoreXY Kinematics Design almost complete! Testing will begin once parts are recieved.  
+
+(5.13.25) Adding initial repo files. Firmware is forked from original cartesian build (To be changed). Adding initial design for hotend carriage.
 
 ## Model Credits
 Credits to the following models for making this possible. Please check them out:
