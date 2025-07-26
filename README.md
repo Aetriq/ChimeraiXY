@@ -28,7 +28,7 @@ Credits to the following models for making this possible. Please check them out:
 - [2] Bowden / PTFE Tube Coupler - Connect 2 Tubes – [[source/link](https://makerworld.com/en/models/664607-bowden-ptfe-tube-coupler-connect-2-tubes#profileId-591977)]  
 - [3] E3D v6 dual 4010 fan duct – [[source/link](https://www.printables.com/model/239901-e3d-v6-dual-4010-fan-duct/files)]  
 - [4] the100: 8mm linear rod gantry - [[source/link](https://github.com/MSzturc/the100/tree/main/STL/Gantry)]
-- [5] MKS Gen L v1.0 Board Case - [[source/link](https://www.thingiverse.com/thing:2239770)]
----
+- [5] MKS Gen L v1.0 Board Case (Compatible with Tinybee, Robin Nano, etc.) - [[source/link](https://www.thingiverse.com/thing:2239770)]
+- [6] Case for Makerbase MKS TS35 V2.0 touchscreen - [[source/link](https://www.printables.com/model/83429-case-for-makerbase-mks-ts35-v20-touchscreen/comments)]
 
 > This project is a work in progress.
