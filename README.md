@@ -1,4 +1,6 @@
-[![Banner1](\Img\Banner1.png "Banner 1")](https://github.com/v-tw0/ChimeraiXY/blob/main/Img/Banner1.png?raw=true)
+<img style="width: 100%; height: 100%" width="100%" class="lazy" src="[https://raw.githubusercontent.com/MSzturc/the100/main/Build_Photos/Top%20Banner%20Claim%20v2.png](https://github.com/v-tw0/ChimeraiXY/blob/main/Img/Banner1.png?raw=true)">
+
+
 [![Banner 2](\Img\Banner2.png "Banner 2")](https://github.com/v-tw0/ChimeraiXY/blob/main/Img/Banner2.png?raw=true)
 # Chimera iXY - CoreXY Build
 
