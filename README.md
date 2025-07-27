@@ -1,6 +1,5 @@
-![alt text](\Img\Banner1.png "Banner 1")
-![alt text](\Img\Banner2.png "Banner 1")
-
+[![Banner1](\Img\Banner1.png "Banner 1")](https://github.com/v-tw0/ChimeraiXY/blob/main/Img/Banner1.png?raw=true)
+[![Banner 2](\Img\Banner2.png "Banner 2")](https://github.com/v-tw0/ChimeraiXY/blob/main/Img/Banner2.png?raw=true)
 # Chimera iXY - CoreXY Build
 
 A DIY CoreXY conversion of the Flsun i3 2017 3D printer. This project includes firmware and relevant 3D model files for the custom build. A Mingda Magician X with a burnt out mainboard and 20-pin ribbon cable was also used in this build. I chose the name 'Chimera' since this printer is essentially two completely different 3D printers with a ~5 year gap combined together to make a hybrid printer.
