@@ -37,6 +37,27 @@ This is not only to demonstrate the ability of upcycling reprap in conjunction w
 - `Doc/` – Rough Concept Sketches, Torque Curves, and printer setup details
 - `Img/` – Images featured here, as well as some diagrams
 
+## Configuration
+Start GCode:
+
+```
+G28 ; home all axes
+G1 Z10 F3000 ; lift nozzle to clear any raised edges
+
+G28 ; home all
+M190 S[first_layer_bed_temperature] ; wait for bed temp
+M109 S[first_layer_temperature] ; wait for extruder temp
+G92 E0.0
+; intro line
+G1 Z2.5 F3000 ; Move Z Axis up little to prevent scratching of Heat Bed
+G1 X5.0 Y20 Z{layer_height} F5000.0 ; Move to start position
+G1 X5.0 Y200.0 Z{layer_height} F1500.0 E15 ; Draw the first line
+G1 X5.3 Y200.0 Z{layer_height} F5000.0 ; Move to side a little
+G1 X5.3 Y20 Z{layer_height} F1500.0 E30 ; Draw the second line
+G92 E0 ; Reset Extruder
+G1 E4 F300 ; Retract filiment by 1 mm
+G1 Z2.0 F3000 ; Move Z Axis up little to prevent scratching of Heat Bed
+```
 
 ## Update Log
 **Current Status**: (7.26.25) [v0.8] Initial Physical Inspection and Testing underway. Lots of design files have been changed, optimized and improved.
