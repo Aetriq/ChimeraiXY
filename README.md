@@ -71,7 +71,7 @@ M84     ; disable motors
 ```
 
 ## Update Log
-**Current Status**: (7.26.25) [v0.8] Initial Physical Inspection and Testing underway. Lots of design files have been changed, optimized and improved.
+**Current Status**: (9.18.25) [v1.0] First Official Release! I will be uploading the final CAD Design Files.
 
 (6.18.25) [v0.7] CoreXY Kinematics Design almost complete! Testing will begin once parts are recieved.  
 
