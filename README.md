@@ -38,6 +38,9 @@ This is not only to demonstrate the ability of upcycling reprap in conjunction w
 - `Img/` – Images featured here, as well as some diagrams
 
 ## Configuration
+The following can be used to set up the slicer of your choice. Credits to reddit user [u/captian_cocaine86](https://www.reddit.com/r/3Dprinting/comments/u6c5by/purge_line_for_prusaslicer/) for the start purge line.
+
+
 Start GCode:
 
 ```
@@ -57,6 +60,14 @@ G1 X5.3 Y20 Z{layer_height} F1500.0 E30 ; Draw the second line
 G92 E0 ; Reset Extruder
 G1 E4 F300 ; Retract filiment by 1 mm
 G1 Z2.0 F3000 ; Move Z Axis up little to prevent scratching of Heat Bed
+```
+
+End GCode:
+```
+M104 S0 ; turn off temperature
+M140 S0
+G28 X0  ; home X axis
+M84     ; disable motors
 ```
 
 ## Update Log
