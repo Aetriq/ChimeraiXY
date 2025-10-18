@@ -1,8 +1,5 @@
-
-![Banner 1](https://github.com/v-tw0/ChimeraiXY/blob/main/Img/Banner1.png?raw=true)
-
-
-[![Banner 2](https://github.com/v-tw0/ChimeraiXY/blob/main/Img/Banner2.png?raw=true)](https://github.com/v-tw0/ChimeraiXY/blob/main/Img/Banner2.png?raw=true)
+![alt text](\Img\Banner1.png "Banner 1")
+![alt text](\Img\Banner2.png "Banner 1")
 
 # Chimera iXY - CoreXY Build
 
@@ -26,27 +23,10 @@ This is not only to demonstrate the ability of upcycling reprap in conjunction w
 **Due to unforeseen circumstances, I have changed to the Robin Nano v3.1.* 
 
 ## Links
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-- [Offical Summarized Documentation Page (Not finished, Work in Progress)](https://v-tw0.github.io/chimeradoc.html)
-- [Offical Full Documentation Page (To be published soon)](https://v-tw0.github.io/chimeradocfull.html)
-- [Bill of Materials](https://docs.google.com/spreadsheets/d/141LB089onZRFYBLwHDZm7xMRdjYpGHt4JvQGmjNZiB8/edit?gid=0#gid=0)
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 [Offical Page](https://aetriq.xyz/chimera.html)
 [Offical Documentation Webpage](https://aetriq.xyz/chimeradocfull.html)
 [Bill of Materials](https://docs.google.com/spreadsheets/d/141LB089onZRFYBLwHDZm7xMRdjYpGHt4JvQGmjNZiB8/edit?gid=0#gid=0)
->>>>>>> Stashed changes
+
 
 ## Contents
 
@@ -55,7 +35,19 @@ This is not only to demonstrate the ability of upcycling reprap in conjunction w
 - `Doc/` – Rough Concept Sketches, Torque Curves, and printer setup details
 - `Img/` – Images featured here, as well as some diagrams
 
-## Configuration
+
+## Update Log
+**Current Status**: (10.18.25) [v1.5] First Bugfix Release! Various models and firmware has been fixed.
+
+(9.15.25) [v1.0] First Official Release! I will be uploading the final CAD Design Files.
+
+(7.26.25) [v0.8] Initial Physical Inspection and Testing underway. Lots of design files have been changed, optimized and improved.
+
+(6.18.25) [v0.7] CoreXY Kinematics Design almost complete! Testing will begin once parts are recieved.  
+
+(5.13.25) [v0.6] Adding initial repo files. Firmware is forked from original cartesian build (To be changed). Adding initial design for hotend carriage.
+
+## Setup Configuration
 The following can be used to set up the slicer of your choice. Credits to reddit user [u/captian_cocaine86](https://www.reddit.com/r/3Dprinting/comments/u6c5by/purge_line_for_prusaslicer/) for the start purge line.
 
 
@@ -87,43 +79,6 @@ M140 S0
 G28 X0  ; home X axis
 M84     ; disable motors
 ```
-
-## Update Log
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-**Current Status**: (9.18.25) [v1.0] First Official Release! I will be uploading the final CAD Design Files.
-=======
-**Current Status**: (9.15.25) v1.0 finally released with relevant documentation!
-
-(7.26.25) [v0.8] Initial Physical Inspection and Testing underway. Lots of design files have been changed, optimized and improved.
->>>>>>> Stashed changes
-=======
-**Current Status**: (9.15.25) v1.0 finally released with relevant documentation!
-
-(7.26.25) [v0.8] Initial Physical Inspection and Testing underway. Lots of design files have been changed, optimized and improved.
->>>>>>> Stashed changes
-=======
-**Current Status**: (9.15.25) v1.0 finally released with relevant documentation!
-
-(7.26.25) [v0.8] Initial Physical Inspection and Testing underway. Lots of design files have been changed, optimized and improved.
->>>>>>> Stashed changes
-=======
-**Current Status**: (9.15.25) v1.0 finally released with relevant documentation!
-
-(7.26.25) [v0.8] Initial Physical Inspection and Testing underway. Lots of design files have been changed, optimized and improved.
->>>>>>> Stashed changes
-=======
-**Current Status**: (9.15.25) v1.0 finally released with relevant documentation!
-
-(7.26.25) [v0.8] Initial Physical Inspection and Testing underway. Lots of design files have been changed, optimized and improved.
->>>>>>> Stashed changes
-
-(6.18.25) [v0.7] CoreXY Kinematics Design almost complete! Testing will begin once parts are recieved.  
-
-(5.13.25) [v0.6] Adding initial repo files. Firmware is forked from original cartesian build (To be changed). Adding initial design for hotend carriage.
 
 ## Model Credits
 Credits to the following models for making this possible. Please check them out:
