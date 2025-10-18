@@ -27,10 +27,13 @@ This is not only to demonstrate the ability of upcycling reprap in conjunction w
 
 ## Links
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 - [Offical Summarized Documentation Page (Not finished, Work in Progress)](https://v-tw0.github.io/chimeradoc.html)
 - [Offical Full Documentation Page (To be published soon)](https://v-tw0.github.io/chimeradocfull.html)
 - [Bill of Materials](https://docs.google.com/spreadsheets/d/141LB089onZRFYBLwHDZm7xMRdjYpGHt4JvQGmjNZiB8/edit?gid=0#gid=0)
 =======
+=======
+>>>>>>> Stashed changes
 [Offical Page](https://aetriq.xyz/chimera.html)
 [Offical Documentation Webpage](https://aetriq.xyz/chimeradocfull.html)
 [Bill of Materials](https://docs.google.com/spreadsheets/d/141LB089onZRFYBLwHDZm7xMRdjYpGHt4JvQGmjNZiB8/edit?gid=0#gid=0)
@@ -78,7 +81,13 @@ M84     ; disable motors
 
 ## Update Log
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 **Current Status**: (9.18.25) [v1.0] First Official Release! I will be uploading the final CAD Design Files.
+=======
+**Current Status**: (9.15.25) v1.0 finally released with relevant documentation!
+
+(7.26.25) [v0.8] Initial Physical Inspection and Testing underway. Lots of design files have been changed, optimized and improved.
+>>>>>>> Stashed changes
 =======
 **Current Status**: (9.15.25) v1.0 finally released with relevant documentation!
 
