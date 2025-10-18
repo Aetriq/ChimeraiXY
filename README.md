@@ -26,9 +26,15 @@ This is not only to demonstrate the ability of upcycling reprap in conjunction w
 **Due to unforeseen circumstances, I have changed to the Robin Nano v3.1.* 
 
 ## Links
+<<<<<<< Updated upstream
 - [Offical Summarized Documentation Page (Not finished, Work in Progress)](https://v-tw0.github.io/chimeradoc.html)
 - [Offical Full Documentation Page (To be published soon)](https://v-tw0.github.io/chimeradocfull.html)
 - [Bill of Materials](https://docs.google.com/spreadsheets/d/141LB089onZRFYBLwHDZm7xMRdjYpGHt4JvQGmjNZiB8/edit?gid=0#gid=0)
+=======
+[Offical Page](https://aetriq.xyz/chimera.html)
+[Offical Documentation Webpage](https://aetriq.xyz/chimeradocfull.html)
+[Bill of Materials](https://docs.google.com/spreadsheets/d/141LB089onZRFYBLwHDZm7xMRdjYpGHt4JvQGmjNZiB8/edit?gid=0#gid=0)
+>>>>>>> Stashed changes
 
 ## Contents
 
@@ -71,7 +77,13 @@ M84     ; disable motors
 ```
 
 ## Update Log
+<<<<<<< Updated upstream
 **Current Status**: (9.18.25) [v1.0] First Official Release! I will be uploading the final CAD Design Files.
+=======
+**Current Status**: (9.15.25) v1.0 finally released with relevant documentation!
+
+(7.26.25) [v0.8] Initial Physical Inspection and Testing underway. Lots of design files have been changed, optimized and improved.
+>>>>>>> Stashed changes
 
 (6.18.25) [v0.7] CoreXY Kinematics Design almost complete! Testing will begin once parts are recieved.  
 
@@ -86,5 +98,12 @@ Credits to the following models for making this possible. Please check them out:
 - [4] the100: 8mm linear rod gantry - [[source/link](https://github.com/MSzturc/the100/tree/main/STL/Gantry)]
 - [5] MKS Gen L v1.0 Board Case (Compatible with Tinybee, Robin Nano, etc.) - [[source/link](https://www.thingiverse.com/thing:2239770)]
 - [6] Case for Makerbase MKS TS35 V2.0 touchscreen - [[source/link](https://www.printables.com/model/83429-case-for-makerbase-mks-ts35-v20-touchscreen/comments)]
+- [7] Drag Cable Chain(s) - [[source/link](https://www.printables.com/model/34894-drag-cable-chains/files)]
+- [8] Modification pack, Ender 5 plus, KAY3D CoreXY. - [[source/link](https://www.thingiverse.com/thing:4643208/files)]
+
+## Software Credits
+- [1] Autodesk Fusion [[source/link](https://www.autodesk.com/products/fusion-360/personal)]
+- [2] PrusaSlicer [[source/link](https://www.prusa3d.com/page/prusaslicer_424/)]
+- [2] MKS-WIFI Uploader for Prusa Slicer (and forks) [[source/link](https://github.com/ArtificalSUN/MKS-WIFI_PS_uploader)]
 
 > This project is a work in progress.
