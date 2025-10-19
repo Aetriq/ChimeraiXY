@@ -1,4 +1,4 @@
-![alt text](\Img\Banner1.png "Banner 1")
+![alt text](https://github.com/Aetriq/ChimeraiXY/blob/main/Img/Banner1.png?raw=true "Banner 1")
 ![alt text](\Img\Banner2.png "Banner 1")
 
 # Chimera iXY - CoreXY Build
