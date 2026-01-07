@@ -1,59 +1,65 @@
-![alt text](https://github.com/Aetriq/ChimeraiXY/blob/main/Img/Banner1.png?raw=true "Banner 1")
-![alt text](https://github.com/Aetriq/ChimeraiXY/blob/main/Img/Banner2.png?raw=true "Banner 1")
+![Banner 1](https://github.com/v-tw0/ChimeraiXY/blob/main/Img/Banner1.png?raw=true)
+
+[![Banner 2](https://github.com/v-tw0/ChimeraiXY/blob/main/Img/Banner2.png?raw=true)](https://github.com/v-tw0/ChimeraiXY/blob/main/Img/Banner2.png?raw=true)
+
+![Banner 3](https://github.com/Aetriq/Aetriq.github.io/blob/main/img/chimera2.0.png?raw=true)
 
 # Chimera iXY - CoreXY Build
 
 A DIY CoreXY conversion of the Flsun i3 2017 3D printer. This project includes firmware and relevant 3D model files for the custom build. A Mingda Magician X with a burnt out mainboard and 20-pin ribbon cable was also used in this build. I chose the name 'Chimera' since this printer is essentially two completely different 3D printers with a ~5 year gap combined together to make a hybrid printer.
 
-This is not only to demonstrate the ability of upcycling reprap in conjunction with modern printers, but also to prove that only linear rods, bearings and extrusions are needed to make a fast printer that rivals high end consumer printers, without the need of several hundred dollars worth of linear rails. You can use them if you have spare ones on hand.
+This is not only to demonstrate the ability of upcycling reprap in conjunction with modern printers, but also to prove that only linear rods, bearings and extrusions are needed to make a fast printer that rivals high end consumer printers while being at a lower cost.
 
 **What's the objective of this project?** My main objective is not to make an insanely fast 3D printer, anything above 200mm/s is the goal with speeds near 500mm/s in mind. The primary objective is to make this printer as reliable as possible, moreso than the two bedslingers it was made out of. The Flsun (While a good printer for its time) is quite finicky to get quality models by today's standards, and the MMX was simply made out of cheap parts that probably didn't even pass QoS. This printer will primarily be used to build large electronic enclosures. 
 
 ## Overview of Specifications
 
-- **Firmware**: Based on Marlin 2.1.2.5, Klipper Supported  
+- **Firmware**: Klipper & MainsailOS. Marlin 2.1.2.5 continues to be supported.  
 - **Controller Board**: Supports MKS Gen L vX.X, TinyBee vX.X, and Robin Nano v3.X.*
 - **Build Type**: CoreXY mechanical configuration
-- **PrintHead Speed**: Minimum 200mm/s. Up to 500mm/s (TBD)
-- **Speed**: Up to 20k mm/s*s accel
+- **Speed**: Quality Prints @ 300mm/s. Travel speeds up to 800mm/s.
+- **Accel**: Up to 20k mm/s*s accel
 - **Drivers**: Minimum TMC2209 UART required (>2.0A peak)
 - **Build Volume**: 230mm^3
-- **Hotend**: V6, all metal to be used in final. Supports PLA, PETG, ABS, ASA, TPU (>72D)
+- **Extrusion**: E3D Titan Extruder Direct Drive or Bowden.
+- **Hotend**: V6 volcano or normal w/ all-metal heatbreak. Supports PLA, PETG, ABS, ASA, TPU (>72D)
 
 **Due to unforeseen circumstances, I have changed to the Robin Nano v3.1.* 
 
-## Links
-[Offical Page](https://aetriq.xyz/chimera.html)
-[Offical Documentation Webpage](https://aetriq.xyz/chimeradocfull.html)
-[Bill of Materials](https://docs.google.com/spreadsheets/d/141LB089onZRFYBLwHDZm7xMRdjYpGHt4JvQGmjNZiB8/edit?gid=0#gid=0)
+### Experimental Results
+Below is a comparison of the donor hardware versus the theoretical goals and final experimental data. In conclusion, alot of my project goals were met and even exceeded in some cases!
 
+| Specification | Flsun i3 (Donor 1) | Mingda Magician X (Donor 2) | Planned Theoretical Goal | Experimental Results |
+| :--- | :--- | :--- | :--- | :--- |
+| **Max Print Speed** | ~100 mm/s | ~80-120 mm/s | 200-500 mm/s | 200-450mm/s|
+| **Max Travel Speed** | ~150 mm/s | ~200 mm/s | 500+ mm/s | 800mm/s |
+| **Max Acceleration** | ~1000 mm/s² | ~1500 mm/s² | 20000 mm/s² | 32000 mm/s² (according to input shaping)|
+| **Volumetric Flow Rate** | ~8 mm³/s | ~10-12 mm³/s | >20 mm³/s | 40 mm³/s|
+| **Build Volume** | 220x220x220 mm | 230x230x260 mm | 230x230x230 mm | 230x230x230 mm|
+| **Kinematics** | Cartesian | Cartesian | CoreXY | CoreXY |
+
+## Links
+
+- [Official Page](https://aetriq.xyz/chimera.html)
+- [Official Summarized Documentation Page](https://v-tw0.github.io/chimeradoc.html)
+- [Official Full Documentation Page](https://aetriq.xyz/chimeradocfull.html)
+- [Bill of Materials](https://aetriq.xyz/chimera.html#bom)
 
 ## Contents
 
-- `Firmware/` – Marlin 2.1.2.5 configuration for MKS Gen L v1.0  
+- `Firmware - Mainboard/` – Klipper & Marlin 2.1.2.5 configuration for MKS Robin Nano v3.1. 
+- `Firmware - ESP8266/` – Configuration for MKS Wifi v1.0. Only used in Marlin Build. 
+- `Config/` - Slicer Profiles, Bootscreen, etc.
 - `Model/` – 3D printable parts for CoreXY conversion (mounts, brackets, etc.)  
 - `Doc/` – Rough Concept Sketches, Torque Curves, and printer setup details
 - `Img/` – Images featured here, as well as some diagrams
 
-
-## Update Log
-**Current Status**: (10.18.25) [v1.5] First Bugfix Release! Various models and firmware has been fixed.
-
-(9.15.25) [v1.0] First Official Release! I will be uploading the final CAD Design Files.
-
-(7.26.25) [v0.8] Initial Physical Inspection and Testing underway. Lots of design files have been changed, optimized and improved.
-
-(6.18.25) [v0.7] CoreXY Kinematics Design almost complete! Testing will begin once parts are recieved.  
-
-(5.13.25) [v0.6] Adding initial repo files. Firmware is forked from original cartesian build (To be changed). Adding initial design for hotend carriage.
-
-## Setup Configuration
+## Configuration
 The following can be used to set up the slicer of your choice. Credits to reddit user [u/captian_cocaine86](https://www.reddit.com/r/3Dprinting/comments/u6c5by/purge_line_for_prusaslicer/) for the start purge line.
 
+**Start GCode in Marlin:**
 
-Start GCode:
-
-```
+```gcode
 G28 ; home all axes
 G1 Z10 F3000 ; lift nozzle to clear any raised edges
 
@@ -70,31 +76,36 @@ G1 X5.3 Y20 Z{layer_height} F1500.0 E30 ; Draw the second line
 G92 E0 ; Reset Extruder
 G1 E4 F300 ; Retract filiment by 1 mm
 G1 Z2.0 F3000 ; Move Z Axis up little to prevent scratching of Heat Bed
-```
 
-End GCode:
-```
-M104 S0 ; turn off temperature
-M140 S0
-G28 X0  ; home X axis
-M84     ; disable motors
-```
+**Start print macro in Klipper:**
 
-## Model Credits
-Credits to the following models for making this possible. Please check them out:
+[gcode_macro START_PRINT]
+description: Custom start macro
+gcode:
+    {% set BED_TEMP = params.BED_TEMP|default(60)|float %}
+    {% set EXTRUDER_TEMP = params.EXTRUDER_TEMP|default(190)|float %}
+    {% set LAYER_HEIGHT = params.LAYER_HEIGHT|default(0.2)|float %}
 
-- [1] 20 x 20 mm extrusion Power Source Unit (PSU) mount bracket – [[source/link](https://www.printables.com/model/457450-20-x-20-mm-extrusion-power-source-unit-psu-mount-b/files)]  
-- [2] Bowden / PTFE Tube Coupler - Connect 2 Tubes – [[source/link](https://makerworld.com/en/models/664607-bowden-ptfe-tube-coupler-connect-2-tubes#profileId-591977)]  
-- [3] E3D v6 dual 4010 fan duct – [[source/link](https://www.printables.com/model/239901-e3d-v6-dual-4010-fan-duct/files)]  
-- [4] the100: 8mm linear rod gantry - [[source/link](https://github.com/MSzturc/the100/tree/main/STL/Gantry)]
-- [5] MKS Gen L v1.0 Board Case (Compatible with Tinybee, Robin Nano, etc.) - [[source/link](https://www.thingiverse.com/thing:2239770)]
-- [6] Case for Makerbase MKS TS35 V2.0 touchscreen - [[source/link](https://www.printables.com/model/83429-case-for-makerbase-mks-ts35-v20-touchscreen/comments)]
-- [7] Drag Cable Chain(s) - [[source/link](https://www.printables.com/model/34894-drag-cable-chains/files)]
-- [8] Modification pack, Ender 5 plus, KAY3D CoreXY. - [[source/link](https://www.thingiverse.com/thing:4643208/files)]
+    G28                          
+    PARK_PURGE                    
+    
+    M140 S{BED_TEMP}              
+    M104 S{EXTRUDER_TEMP}       
+    
+    M190 S{BED_TEMP}             
+    M109 S{EXTRUDER_TEMP}         
+    
+    BED_MESH_PROFILE LOAD=mesh1   
+    
+    G92 E0.0                      
+    G1 Z2.5 F3000                  
+    
+    G1 X5.0 Y5.0 Z{LAYER_HEIGHT} F5000.0  
+    G1 X5.0 Y55.0 Z{LAYER_HEIGHT} F1500.0 E10 
+    G1 X5.3 Y55.0 Z{LAYER_HEIGHT} F5000.0   
+    G1 X5.3 Y5.0 Z{LAYER_HEIGHT} F1500.0 E20 
+    
+    G92 E0 
+    G1 E-1 F300                  
+    G1 Z2.0 F3000
 
-## Software Credits
-- [1] Autodesk Fusion [[source/link](https://www.autodesk.com/products/fusion-360/personal)]
-- [2] PrusaSlicer [[source/link](https://www.prusa3d.com/page/prusaslicer_424/)]
-- [2] MKS-WIFI Uploader for Prusa Slicer (and forks) [[source/link](https://github.com/ArtificalSUN/MKS-WIFI_PS_uploader)]
-
-> This project is a work in progress.
