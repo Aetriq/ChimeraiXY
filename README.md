@@ -25,7 +25,6 @@ This is not only to demonstrate the ability of upcycling reprap in conjunction w
 - **Hotend**: V6 volcano or normal w/ all-metal heatbreak. Supports PLA, PETG, ABS, ASA, TPU (>72D)
 
 **Due to unforeseen circumstances, I have changed to the Robin Nano v3.1.* 
-
 ### Experimental Results
 Below is a comparison of the donor hardware versus the theoretical goals and final experimental data. In conclusion, alot of my project goals were met and even exceeded in some cases!
 
@@ -76,9 +75,11 @@ G1 X5.3 Y20 Z{layer_height} F1500.0 E30 ; Draw the second line
 G92 E0 ; Reset Extruder
 G1 E4 F300 ; Retract filiment by 1 mm
 G1 Z2.0 F3000 ; Move Z Axis up little to prevent scratching of Heat Bed
+```
 
 **Start print macro in Klipper:**
 
+```
 [gcode_macro START_PRINT]
 description: Custom start macro
 gcode:
@@ -108,4 +109,21 @@ gcode:
     G92 E0 
     G1 E-1 F300                  
     G1 Z2.0 F3000
+```
+## Model Credits
+Credits to the following models for making this possible. Please check them out:
 
+- [1] 20 x 20 mm extrusion Power Source Unit (PSU) mount bracket – [[source/link](https://www.printables.com/model/457450-20-x-20-mm-extrusion-power-source-unit-psu-mount-b/files)]  
+- [2] Bowden / PTFE Tube Coupler - Connect 2 Tubes – [[source/link](https://makerworld.com/en/models/664607-bowden-ptfe-tube-coupler-connect-2-tubes#profileId-591977)]  
+- [3] E3D v6 dual 4010 fan duct – [[source/link](https://www.printables.com/model/239901-e3d-v6-dual-4010-fan-duct/files)]  
+- [4] the100: 8mm linear rod gantry - [[source/link](https://github.com/MSzturc/the100/tree/main/STL/Gantry)]
+- [5] KP3S PSU 120mm fan adapter (ZL-360-24) - [[source/link](https://www.thingiverse.com/thing:6010144)]
+- [6] Case for Makerbase MKS TS35 V2.0 touchscreen - [[source/link](https://www.printables.com/model/83429-case-for-makerbase-mks-ts35-v20-touchscreen/comments)]
+- [7] Drag Cable Chain(s) - [[source/link](https://www.printables.com/model/34894-drag-cable-chains/files)]
+- [8] Modification pack, Ender 5 plus, KAY3D CoreXY. - [[source/link](https://www.thingiverse.com/thing:4643208/files)]
+
+
+## Software Credits
+- [1] Autodesk Fusion [[source/link](https://www.autodesk.com/products/fusion-360/personal)]
+- [2] PrusaSlicer [[source/link](https://www.prusa3d.com/page/prusaslicer_424/)]
+- [2] MKS-WIFI Uploader for Prusa Slicer (and forks) [[source/link](https://github.com/ArtificalSUN/MKS-WIFI_PS_uploader)]
