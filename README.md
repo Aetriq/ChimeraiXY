@@ -126,4 +126,9 @@ Credits to the following models for making this possible. Please check them out:
 ## Software Credits
 - [1] Autodesk Fusion [[source/link](https://www.autodesk.com/products/fusion-360/personal)]
 - [2] PrusaSlicer [[source/link](https://www.prusa3d.com/page/prusaslicer_424/)]
-- [2] MKS-WIFI Uploader for Prusa Slicer (and forks) [[source/link](https://github.com/ArtificalSUN/MKS-WIFI_PS_uploader)]
+- [3] SuperSlicer [[source/link](https://superslicer.net/)]
+- [4] Klipper [[source/link](https://www.klipper3d.org/)]
+- [5] Configuration for MKS TS35 V2.0 working with klipper screen [[source/link](https://github.com/NamkingWIN/3d_print/wiki/Configuration-for-MKS-TS35-V2.0-working-with-klipper-screen)]
+- [6] StepperSim [[source/link](https://github.com/rcarlyle/StepperSim)]
+
+
