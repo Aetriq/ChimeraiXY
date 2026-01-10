@@ -2,7 +2,7 @@
 
 [![Banner 2](https://github.com/v-tw0/ChimeraiXY/blob/main/Img/Banner2.png?raw=true)](https://github.com/v-tw0/ChimeraiXY/blob/main/Img/Banner2.png?raw=true)
 
-![Banner 3](https://github.com/Aetriq/Aetriq.github.io/blob/main/img/chimera2.0.png?raw=true)
+![Banner 3](https://github.com/Aetriq/ChimeraiXY/blob/main/Img/v2.0%20Transparent.png?raw=true)
 
 # Chimera iXY - CoreXY Build
 
