@@ -40,9 +40,9 @@ Below is a comparison of the donor hardware versus the theoretical goals and fin
 ## Links
 
 - [Official Page](https://aetriq.xyz/chimera.html)
-- [Official Summarized Documentation Page](https://v-tw0.github.io/chimeradoc.html)
-- [Official Full Documentation Page](https://aetriq.xyz/chimeradocfull.html)
-- [Bill of Materials](https://aetriq.xyz/chimera.html#bom)
+- [Wiki Page](https://github.com/Aetriq/ChimeraiXY/wiki/Wiki-Page-%E2%80%90-Chimera-iXY-v2.0)
+- [Full Documentation](https://aetriq.xyz/chimeradocfull.html)
+- [Bill of Materials](https://aetriq.xyz/chimeradocfull.html#bom)
 
 ## Contents
 
