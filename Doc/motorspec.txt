@@ -9,3 +9,13 @@
 - Resistance: 4.4 ohm
 - Holding torque: 2420 mN.m
 - Positioning torque : 20mN.m REF
+
+ 42BYGH439-B-20D
+- 17 Stepper
+- 42 Motor
+- Step angle: Likely 0.9 degree
+- Number of phases: 2
+- Voltage: DC 2.55V
+- Current: 1.7A/Phase
+- Resistance: 1.5-1.8 ohm
+- Holding torque: ~40 - 45 N.cm
