@@ -1,0 +1,11 @@
+42SHDC4023Z-23B
+
+- 17 Stepper
+- 42 Motor
+- Step angle: 1.8 degree
+- Number of phases: 2
+- Voltage: DC 2.55V
+- Current: 1.5A/phase
+- Resistance: 4.4 ohm
+- Holding torque: 2420 mN.m
+- Positioning torque : 20mN.m REF
