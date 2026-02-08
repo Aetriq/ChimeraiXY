@@ -1,16 +1,16 @@
-![Banner 1](https://github.com/v-tw0/ChimeraiXY/blob/main/Img/Banner1.png?raw=true)
-
-[![Banner 2](https://github.com/v-tw0/ChimeraiXY/blob/main/Img/Banner2.png?raw=true)](https://github.com/v-tw0/ChimeraiXY/blob/main/Img/Banner2.png?raw=true)
-
-![Banner 3](https://github.com/Aetriq/ChimeraiXY/blob/main/Img/v2.0%20Transparent.png?raw=true)
-
 # Chimera iXY - CoreXY Build
+
+![Banner 1](https://github.com/Aetriq/ChimeraiXY/blob/main/Img/chimera%20v2.1%20-%20compressed.png?raw=true)
+
+[![Banner 2](https://github.com/Aetriq/ChimeraiXY/blob/main/Img/Banner3.png?raw=true)
 
 A DIY CoreXY conversion of the Flsun i3 2017 3D printer. This project includes firmware and relevant 3D model files for the custom build. A Mingda Magician X with a burnt out mainboard and 20-pin ribbon cable was also used in this build. I chose the name 'Chimera' since this printer is essentially two completely different 3D printers with a ~5 year gap combined together to make a hybrid printer.
 
 This is not only to demonstrate the ability of upcycling reprap in conjunction with modern printers, but also to prove that only linear rods, bearings and extrusions are needed to make a fast printer that rivals high end consumer printers while being at a lower cost.
 
-**What's the objective of this project?** My main objective is not to make an insanely fast 3D printer, anything above 200mm/s is the goal with speeds near 500mm/s in mind. The primary objective is to make this printer as reliable as possible, moreso than the two bedslingers it was made out of. The Flsun (While a good printer for its time) is quite finicky to get quality models by today's standards, and the MMX was simply made out of cheap parts that probably didn't even pass QoS. This printer will primarily be used to build large electronic enclosures. 
+My main objective is not to make an insanely fast 3D printer, anything above 200mm/s is the goal with speeds near 500mm/s in mind. The primary objective is to make this printer as reliable as possible, moreso than the two bedslingers it was made out of. The Flsun (While a good printer for its time) is quite finicky to get quality models by today's standards, and the MMX was simply made out of cheap parts that probably didn't even pass QoS. This printer will primarily be used to build large electronic enclosures. 
+
+Revision 2.1 implements the addition of a nozzle brush and wiper.
 
 ## Overview of Specifications
 
