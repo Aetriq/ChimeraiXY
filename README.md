@@ -1,26 +1,17 @@
 # Chimera iXY - CoreXY Build
 
 ![Banner 1](https://github.com/Aetriq/ChimeraiXY/blob/main/Img/chimera%20v2.1%20-%20compressed.png?raw=true)
-
-[![Banner 2](https://github.com/Aetriq/ChimeraiXY/blob/main/Img/Banner3.png?raw=true)
+![Banner 2](https://github.com/Aetriq/ChimeraiXY/blob/main/Img/Banner3.png?raw=true)
 
 A DIY CoreXY conversion of the Flsun i3 2017 3D printer. This project includes firmware and relevant 3D model files for the custom build. A Mingda Magician X with a burnt out mainboard and 20-pin ribbon cable was also used in this build. I chose the name 'Chimera' since this printer is essentially two completely different 3D printers with a ~5 year gap combined together to make a hybrid printer.
 
 This is not only to demonstrate the ability of upcycling reprap in conjunction with modern printers, but also to prove that only linear rods, bearings and extrusions are needed to make a fast printer that rivals high end consumer printers while being at a lower cost.
 
-<<<<<<< Updated upstream
-My main objective is not to make an insanely fast 3D printer, anything above 200mm/s is the goal with speeds near 500mm/s in mind. The primary objective is to make this printer as reliable as possible, moreso than the two bedslingers it was made out of. The Flsun (While a good printer for its time) is quite finicky to get quality models by today's standards, and the MMX was simply made out of cheap parts that probably didn't even pass QoS. This printer will primarily be used to build large electronic enclosures. 
-
-Revision 2.1 implements the addition of a nozzle brush and wiper.
-=======
 **What's the objective of this project?** My main objective is not to make an insanely fast 3D printer, anything above 200mm/s is the goal with speeds near 500mm/s in mind. Instead, I wanted to make this printer as reliable as possible, moreso than the two bedslingers it was made out of. The Flsun (While a good printer for its time) is obviously last gen, so it's quite finicky to get quality models by today's standards, and the MMX was simply made out of cheap parts that probably didn't even pass QoS (there's also alot of review online of mingda printers using parts with questionable quality). This printer will primarily be used to build large electronic enclosures. 
 
-**LATEST UPDATE LOG (v2.4):** 
-- Added a nozzle cleaning system, including a ptfe wiper and nozzle brush. Partially inspired by the system seen on bambu's a1 series, this system works very well and the klipper config has been updated accordingly.
+**LATEST UPDATE LOG (v2.4):** - Added a nozzle cleaning system, including a ptfe wiper and nozzle brush. Partially inspired by the system seen on bambu's a1 series, this system works very well and the klipper config has been updated accordingly.
 - Added an auxillary cooling fan, a 120x25mm axial 150CFM fan. This should've been a centrifugal blower but I had this one on hand and it pushes a decent amount of H20 pressure.
 - Quality of life improvements to firmware, including the implementation of above. Thermal testing of steppers made me stay at 1.2A RMS for X and Y motors.
-
->>>>>>> Stashed changes
 
 ## Overview of Specifications
 
@@ -34,8 +25,7 @@ Revision 2.1 implements the addition of a nozzle brush and wiper.
 - **Extrusion**: E3D Titan Extruder Direct Drive or Bowden.
 - **Hotend**: V6 volcano or normal w/ all-metal heatbreak. Supports PLA, PETG, ABS, ASA, TPU (>72D)
 
-**Due to unforeseen circumstances, I have changed to the Robin Nano v3.1.* 
-### Experimental Results
+**Due to unforeseen circumstances, I have changed to the Robin Nano v3.1.* ### Experimental Results
 Below is a comparison of the donor hardware versus the theoretical goals and final experimental data. In conclusion, alot of my project goals were met and even exceeded in some cases!
 
 | Specification | Flsun i3 (Donor 1) | Mingda Magician X (Donor 2) | Planned Theoretical Goal | Experimental Results |
@@ -87,5 +77,3 @@ Credits to the following models for making this possible. Please check them out:
 - [4] Klipper [[source/link](https://www.klipper3d.org/)]
 - [5] Configuration for MKS TS35 V2.0 working with klipper screen [[source/link](https://github.com/NamkingWIN/3d_print/wiki/Configuration-for-MKS-TS35-V2.0-working-with-klipper-screen)]
 - [6] StepperSim [[source/link](https://github.com/rcarlyle/StepperSim)]
-
-
