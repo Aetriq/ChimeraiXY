@@ -8,9 +8,19 @@ A DIY CoreXY conversion of the Flsun i3 2017 3D printer. This project includes f
 
 This is not only to demonstrate the ability of upcycling reprap in conjunction with modern printers, but also to prove that only linear rods, bearings and extrusions are needed to make a fast printer that rivals high end consumer printers while being at a lower cost.
 
+<<<<<<< Updated upstream
 My main objective is not to make an insanely fast 3D printer, anything above 200mm/s is the goal with speeds near 500mm/s in mind. The primary objective is to make this printer as reliable as possible, moreso than the two bedslingers it was made out of. The Flsun (While a good printer for its time) is quite finicky to get quality models by today's standards, and the MMX was simply made out of cheap parts that probably didn't even pass QoS. This printer will primarily be used to build large electronic enclosures. 
 
 Revision 2.1 implements the addition of a nozzle brush and wiper.
+=======
+**What's the objective of this project?** My main objective is not to make an insanely fast 3D printer, anything above 200mm/s is the goal with speeds near 500mm/s in mind. Instead, I wanted to make this printer as reliable as possible, moreso than the two bedslingers it was made out of. The Flsun (While a good printer for its time) is obviously last gen, so it's quite finicky to get quality models by today's standards, and the MMX was simply made out of cheap parts that probably didn't even pass QoS (there's also alot of review online of mingda printers using parts with questionable quality). This printer will primarily be used to build large electronic enclosures. 
+
+**LATEST UPDATE LOG (v2.4):** 
+- Added a nozzle cleaning system, including a ptfe wiper and nozzle brush. Partially inspired by the system seen on bambu's a1 series, this system works very well and the klipper config has been updated accordingly.
+- Added an auxillary cooling fan, a 120x25mm axial 150CFM fan. This should've been a centrifugal blower but I had this one on hand and it pushes a decent amount of H20 pressure.
+- Quality of life improvements to firmware, including the implementation of above. Thermal testing of steppers made me stay at 1.2A RMS for X and Y motors.
+
+>>>>>>> Stashed changes
 
 ## Overview of Specifications
 
@@ -54,62 +64,9 @@ Below is a comparison of the donor hardware versus the theoretical goals and fin
 - `Img/` – Images featured here, as well as some diagrams
 
 ## Configuration
-The following can be used to set up the slicer of your choice. Credits to reddit user [u/captian_cocaine86](https://www.reddit.com/r/3Dprinting/comments/u6c5by/purge_line_for_prusaslicer/) for the start purge line.
+Refer to config folder for start gcode for marlin, or firmware for klipper start/end gcode. This printer works optimally on both superslicer or prusaslicer but supports any marlin flavored gcode.
 
-**Start GCode in Marlin:**
 
-```gcode
-G28 ; home all axes
-G1 Z10 F3000 ; lift nozzle to clear any raised edges
-
-G28 ; home all
-M190 S[first_layer_bed_temperature] ; wait for bed temp
-M109 S[first_layer_temperature] ; wait for extruder temp
-G92 E0.0
-; intro line
-G1 Z2.5 F3000 ; Move Z Axis up little to prevent scratching of Heat Bed
-G1 X5.0 Y20 Z{layer_height} F5000.0 ; Move to start position
-G1 X5.0 Y200.0 Z{layer_height} F1500.0 E15 ; Draw the first line
-G1 X5.3 Y200.0 Z{layer_height} F5000.0 ; Move to side a little
-G1 X5.3 Y20 Z{layer_height} F1500.0 E30 ; Draw the second line
-G92 E0 ; Reset Extruder
-G1 E4 F300 ; Retract filiment by 1 mm
-G1 Z2.0 F3000 ; Move Z Axis up little to prevent scratching of Heat Bed
-```
-
-**Start print macro in Klipper:**
-
-```
-[gcode_macro START_PRINT]
-description: Custom start macro
-gcode:
-    {% set BED_TEMP = params.BED_TEMP|default(60)|float %}
-    {% set EXTRUDER_TEMP = params.EXTRUDER_TEMP|default(190)|float %}
-    {% set LAYER_HEIGHT = params.LAYER_HEIGHT|default(0.2)|float %}
-
-    G28                          
-    PARK_PURGE                    
-    
-    M140 S{BED_TEMP}              
-    M104 S{EXTRUDER_TEMP}       
-    
-    M190 S{BED_TEMP}             
-    M109 S{EXTRUDER_TEMP}         
-    
-    BED_MESH_PROFILE LOAD=mesh1   
-    
-    G92 E0.0                      
-    G1 Z2.5 F3000                  
-    
-    G1 X5.0 Y5.0 Z{LAYER_HEIGHT} F5000.0  
-    G1 X5.0 Y55.0 Z{LAYER_HEIGHT} F1500.0 E10 
-    G1 X5.3 Y55.0 Z{LAYER_HEIGHT} F5000.0   
-    G1 X5.3 Y5.0 Z{LAYER_HEIGHT} F1500.0 E20 
-    
-    G92 E0 
-    G1 E-1 F300                  
-    G1 Z2.0 F3000
-```
 ## Model Credits
 Credits to the following models for making this possible. Please check them out:
 
